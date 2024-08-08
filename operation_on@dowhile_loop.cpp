@@ -11,6 +11,6 @@ int main()
     {
         cout << n << " * " << i << " = " << n * i << endl; // Print the current multiplication step
         i++;                                               // increment of value i by 1
-    } while (i <= 10); // conditiont
+    } while (i <= 10); // condition
     return 0;
 }
