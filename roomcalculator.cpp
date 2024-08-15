@@ -6,11 +6,11 @@ public:
     double length;
     double breadth;
     double height;
-    double calculate_area()
+    double calculate_area()//function
     {
         return length * breadth;
     }
-    double calculate_volume()
+    double calculate_volume()//function
     {
         return length * breadth * height;
     }
@@ -25,7 +25,7 @@ int main()
     cin >> room1.breadth;
     cout << "Enter the height of room:" << endl;
     cin >> room1.height;
-    cout << "Area of room=" << room1.calculate_area() << endl;
-    cout << "Volume of room=" << room1.calculate_volume() << endl;
+    cout << "Area of room=" << room1.calculate_area() << endl;//printing statements with function calling
+    cout << "Volume of room=" << room1.calculate_volume() << endl;//printing statements with function calling
     return 0;
 }
